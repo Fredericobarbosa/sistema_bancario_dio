@@ -5,7 +5,7 @@ Este projeto é um sistema bancário simples desenvolvido como parte de um desaf
 ## Descrição
 O objetivo do projeto é simular operações bancárias básicas, como criação de contas, depósitos, saques e extratos, utilizando Python.
 
-## Resquisitos 
+## Requisitos 
 ### Operação de depósito:
  - Deve ser possível depositar valores positivos
  - Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato
@@ -16,7 +16,7 @@ O objetivo do projeto é simular operações bancárias básicas, como criação
  - Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato
 
 ### Operação de extrato:
- - Listar todos depósitos e saques realiazados na conta
+ - Listar todos depósitos e saques realizados na conta
  - Exibir o saldo atual da conta
 
 ## Como executar
