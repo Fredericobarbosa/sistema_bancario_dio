@@ -19,6 +19,15 @@ O objetivo do projeto é simular operações bancárias básicas, como criação
  - Listar todos depósitos e saques realizados na conta
  - Exibir o saldo atual da conta
 
+## Cadastrar usuário
+- Ter os campos de nome, data de nascimento, cpf, e endereço
+
+
+## Cadastrar conta corrente
+- O usuário pode ter mais de uma conta, mas uma conta pertence a somente um usuário
+
+## Listar contas
+
 ## Como executar
 Execute o arquivo `bank.py` para iniciar o sistema.
 
