@@ -1,23 +1,41 @@
+
 # Sistema Bancário DIO
 
-Este projeto é um sistema bancário simples desenvolvido como parte de um desafio da Digital Innovation One (DIO) no bootcamp da Suzano.
+Projeto de sistema bancário simples desenvolvido em Python para o desafio da Digital Innovation One (DIO).
 
-## Descrição
-O objetivo do projeto é simular operações bancárias básicas, como criação de contas, depósitos, saques e extratos, utilizando Python.
+## Funcionalidades
+- Cadastro de clientes (Pessoa Física)
+- Cadastro de contas correntes
+- Depósito em conta
+- Saque com limite de valor e quantidade
+- Extrato de movimentações
+- Listagem de contas
 
-## Requisitos 
-### Operação de depósito:
- - Deve ser possível depositar valores positivos
- - Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato
+## Menu Interativo
+O sistema apresenta o seguinte menu no terminal:
 
-### Operação de saque:
- - O sistema deve permitir realizar 3 saque diários com limite máximo de R$ 500,00 por saque
- - Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo
- - Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato
+```
+=============== MENU ================
+[d] Depositar
+[s] Sacar
+[e] Extrato
+[nc] Nova conta
+[lc] Listar contas
+[nu] Novo usuário
+[q] Sair
+```
 
-### Operação de extrato:
- - Listar todos depósitos e saques realizados na conta
- - Exibir o saldo atual da conta
+## Como executar
+Basta executar o arquivo `bank.py`:
+
+```bash
+python bank.py
+```
+
+O sistema é interativo via terminal, apresentando um menu de opções para realizar as operações bancárias.
+
+## Autor
+Desenvolvido por Fredericobarbosa.
 
 ## Cadastrar usuário
 - Ter os campos de nome, data de nascimento, cpf, e endereço
